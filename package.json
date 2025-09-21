@@ -15,7 +15,15 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "maggi",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maggimo/socket-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Maggimo/socket-server/issues"
+  },
+  "homepage": "https://github.com/Maggimo/socket-server#readme",
   "description": ""
 }
