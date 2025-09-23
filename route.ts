@@ -1,7 +1,8 @@
-const express = require('express')
+import express from 'express'
+
 const router = express.Router()
 
-router.get('/', (req, res) => {
+router.get('/', (_, res) => {
 	res.setHeader('Access-Control-Allow-Origin', '*')
 	res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE')
 	res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type')
@@ -9,4 +10,4 @@ router.get('/', (req, res) => {
 	res.send('request send')
 })
 
-module.exports = router
+export { router }

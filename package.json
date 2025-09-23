@@ -2,17 +2,22 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "nodemon": "^3.1.10",
     "socket.io": "^4.8.1"
   },
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "index.ts",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "ts-node index.ts",
+    "dev": "nodemon --ext ts,json --exec \"ts-node\" index.ts"
   },
   "keywords": [],
   "author": "maggi",
