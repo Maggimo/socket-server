@@ -37,11 +37,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maggimo/socket-server.git"
+    "url": "git+https://github.com/Maggimo/magfit-diary-backend.git"
   },
-  "bugs": {
-    "url": "https://github.com/Maggimo/socket-server/issues"
-  },
-  "homepage": "https://github.com/Maggimo/socket-server#readme",
   "description": ""
 }
